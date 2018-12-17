@@ -1,0 +1,18 @@
+.section {
+    display: flex;
+    width: 100%;
+}
+
+.section__header {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    /* padding: 20px; */
+    /* justify-content: center; */
+}
+
+.section__header__title {
+    margin: 10px 46% 10px auto;
+}
+
+

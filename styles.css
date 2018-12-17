@@ -6,3 +6,39 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.add_border {
+	border: 2px solid black;
+}
+
+.dropdown {
+	margin: 10px;
+	position: relative;
+}
+
+.dropdown__title{
+	padding: 8px;
+}
+
+.dropdown__box {
+	display: none;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown__link {
+	text-align: center;
+	display: none;
+	padding-left: 0px;
+}
+
+.dropdown:hover .dropdown__link {
+	display: block;
+	background-color: white;
+}
+
+.dropdown:hover .dropdown__box {
+	display: block;
+	background-color: white;
+}
